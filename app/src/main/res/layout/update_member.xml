@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#424242"
+        android:gravity="center"
+        android:text="변경할 정보를 입력해주세요"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:fontFamily="@font/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/re_name"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:hint="Name"
+            android:textSize="16dp"
+            android:fontFamily="@font/white"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/re_grade"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:hint="position"
+            android:textSize="16dp"
+            android:fontFamily="@font/white"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/re_number"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:hint="Number"
+            android:textSize="16dp"
+            android:fontFamily="@font/white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/re_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#424242"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="수정"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/white"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/re_no"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#424242"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="취소"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

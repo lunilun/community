@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.communityapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/good"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".findpwd"></activity>
+        <activity android:name=".new_date" />
+        <activity android:name=".update_date" />
+        <activity android:name=".Detail_date" />
+        <activity android:name=".user_date" />
+        <activity android:name=".ReComment" />
+        <activity android:name=".AdminQuestion" />
+        <activity android:name=".QuesDetail" />
+        <activity android:name=".MyQuestion" />
+        <activity android:name=".newArticle" />
+        <activity android:name=".postpage" />
+        <activity android:name=".adminpage" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
